@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:latest
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_USER: equal
+      POSTGRES_PASSWORD: equal
+      POSTGRES_DB: orm
